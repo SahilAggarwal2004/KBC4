@@ -1,4 +1,5 @@
 import time
+import random
 print('WELCOME IN THE WORLD OF QUESTIONS')
 time.sleep(5)
 print()
@@ -55,7 +56,7 @@ y='2(50:50)'
 z='3(expert advice)'
 w='4(replace the question)'
 ll=[q,y,z,w]
-print('FIRST QUESTION(1,000)')
+print(f'FIRST QUESTION({random.randint()})')
 time.sleep(2)
 print()
 print('Q1 Which of these sports is also the name of something that can be drunk')
@@ -94,7 +95,7 @@ if a=='b':
     print('correct option.you have won 1000 ruppes')
     x=input('Continue????')
     print()
-    print('SECOND QUESTION(2,000)')
+    print(f'SECOND QUESTION({random.randint()})')
     print()
     print('Q2 The Sanchi Stupa is place of pilgrimage for which religious')
     time.sleep(2)
